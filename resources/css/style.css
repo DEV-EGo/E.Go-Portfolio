@@ -168,8 +168,8 @@ input[type=submit]{
 .btn-full:link,
 .btn-full:visited,
 input[type=submit]{
-    background-color: #e67e22;
-    border: 1px solid #e67e22;
+    background-color: #2b31f37a;
+    border: 1px solid #efeeec;
     color: #fff;
     margin-right: 15px;
 
@@ -177,8 +177,8 @@ input[type=submit]{
 
 .btn-ghost:link,
 .btn-ghost:visited{
-    border: 1px solid #e67e22;
-    color: #e67e22;
+    border: 1px solid #131874;
+    color: #1d7413;
 }
 
 .btn:hover,
