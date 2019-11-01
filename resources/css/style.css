@@ -428,6 +428,7 @@ border-bottom: 2px solid #e67e22;
     width: 100%;
     height: auto;
     margin-bottom: 15px;
+    border-style: inset;
 }
 
 .city-feature {
