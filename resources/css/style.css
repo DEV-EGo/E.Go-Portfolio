@@ -44,6 +44,7 @@ p{
     max-width: 1140px;
     margin: 0 auto ;
     text-align: center;
+    color: black;
 }
 
 section {
@@ -128,6 +129,13 @@ h4:after {
     color: white;
 }
 
+.long-copy2{
+    line-height: 145%;
+    width: 70%;
+    margin-left: 15%;
+    color: white;
+}
+
 .box p {
     font-size: 90%;
     line-height: 145%;
@@ -146,7 +154,7 @@ h4:after {
     display: inline-block;
     width: 30px;
     text-align: center;
-    color: #e67e22;
+    color: #67a78e;
     font-size: 120%;
     margin-right: 10px;
 
@@ -160,7 +168,7 @@ h4:after {
 
 a:link,
 a:visited {
-    color: #e67e22;
+    color: #c0bcb8;
     text-decoration: none;
     padding-bottom: 1px; 
     /* border-bottom: 1px solid #e67e22; */
@@ -459,6 +467,7 @@ border-bottom: 2px solid #e67e22;
 
 .city-feature {
     margin-bottom: 5px;
+    color: #00a8ffad ;
 }
 
 
@@ -566,10 +575,14 @@ cite img {
 /* --------FORM--------- */
 /* ------------ */
 
+.section-form {
+    background-color: #f4f4f4;
+}
 .contact-form{
     width: 60%;
     margin: 0 auto;
 }
+
 
 input[type=text],
 input[type=email],
