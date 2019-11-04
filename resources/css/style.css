@@ -219,7 +219,7 @@ input[type=submit]{
 .btn:active,
 input[type=submit]:hover,
 input[type=submit]:active{
-background-color: #cf6d17;
+background-color: #9b50df;
 }
 
 .btn-full:hover,
@@ -322,8 +322,8 @@ border-bottom: 2px solid #e67e22;
     top: 0 ;
     left: 0;
     width: 100%;
-    background-color: #00a8ff;
-    box-shadow: 0 2px 2px #efefef;
+    background-color: #00a8ff9c;
+    box-shadow: 2px 3px 11px 1px #f0b8f7;
     z-index: 9999;
 }
 
@@ -395,7 +395,7 @@ border-bottom: 2px solid #e67e22;
 
 /* -----------How it Works-----------------*/
 
-.section-steps {
+.section-aboutme {
     background-color: #f4f4f4;
 }
 
@@ -420,28 +420,30 @@ border-bottom: 2px solid #e67e22;
     width: 513px;
 }
 
-.works-step{
+.me-step{
     margin-bottom: 50px;
 
 }
 
-.works-step:last-of-type {
+.me-step:last-of-type {
     margin-bottom: 50px; 
 }
 
 
-.works-step div {
+.me-step div{
     color: #00a8ff;
     font-size: 150%;
     height: 54px;
     width: 54px;
-    /* border: 2px solid #121313; */
-    /* border-radius: 20%; */
     display: inline-block;
     text-align: center;
     margin-right: 25px;
     float: left;
     padding: 5px;
+}
+
+.list{
+    display: inline-block;
 }
 
 .btn-app:link,
