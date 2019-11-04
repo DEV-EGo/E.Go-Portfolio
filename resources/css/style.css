@@ -332,7 +332,7 @@ border-bottom: 2px solid #e67e22;
 .sticky .main-nav li a:link,
 .sticky .main-nav li a:visited {
     padding: 16px 0;
-    color: #555;
+    color: white;
     
 }
 
@@ -467,7 +467,7 @@ border-bottom: 2px solid #e67e22;
     border-style: inset;
 }
 
-.city-feature {
+.deployed-feature {
     margin-bottom: 5px;
     color: #00a8ffad ;
 }
