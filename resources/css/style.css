@@ -123,9 +123,9 @@ h4:after {
 
 /* -------PARAGRAPHS ---------------*/
 .long-copy{
-    line-height: 145%;
+    line-height: 150%;
     width: 70%;
-    margin-left: 15%;
+    margin-left: 2%;
     color: white;
 }
 
@@ -343,10 +343,19 @@ border-bottom: 2px solid #e67e22;
 /* -----------FEATURES-----------------*/
 
 .section-welcome .long-copy {
-    margin-bottom: 30px;
+    margin-bottom: 9px;
 }
 
-/* -----------How it Works-----------------*/
+
+/* -----------about me-----------------*/
+
+.Nikola-Tesla {
+    float: right;
+    margin: -3px;
+    border: 3px solid;
+    padding: 6px;
+    box-shadow: 6px 7px 7px 0px #02a9ff78;
+}
 
 .section-aboutme {
     background-color: #f4f4f4;
@@ -409,6 +418,14 @@ border-bottom: 2px solid #e67e22;
     height: 50px;
     widows: auto;
     margin-right: 10px;
+}
+
+img {
+    float: left;
+    margin: -3px;
+    border: 3px;
+    padding: 6px;
+    box-shadow: 6px 7px 7px 0px #02a9ff78;
 }
 
 /* -----------cities-----------------*/
@@ -605,8 +622,8 @@ footer p {
 .js--wp-2,
 .js--wp-3 { 
     opacity: 0;
-    -webkit-animation-duration: 1.5s;
-    animation-duration: 1.5s;
+    -webkit-animation-duration: .2s;
+    animation-duration: 2.1s;
 }
 
 .js--wp-4 {

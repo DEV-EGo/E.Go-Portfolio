@@ -93,7 +93,7 @@
 
     .long-copy{
         width: 100%;
-        margin-left: 0%;
+        margin-left: -5%;
     }
 
     .app-screen { width: 330px;}
