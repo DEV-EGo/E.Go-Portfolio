@@ -233,9 +233,7 @@ background-color: #9b50df;
     color: #fff;
 }
 
-/* --------------------------*/
 /* -----------HEADER-----------------*/
-/* --------------------------*/
 
 header{
     background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))), url(img/loading.gif);
@@ -420,7 +418,7 @@ border-bottom: 2px solid #e67e22;
     margin-right: 10px;
 }
 
-img {
+.edwin {
     float: left;
     margin: -3px;
     border: 3px;
@@ -428,7 +426,7 @@ img {
     box-shadow: 6px 7px 7px 0px #02a9ff78;
 }
 
-/* -----------cities-----------------*/
+/* -----------deployed-----------------*/
 
 .box img{
     width: 100%;
@@ -443,66 +441,7 @@ img {
 }
 
 
-/* --------Sign-up--------- */
-
-.section-plans {
-    background-color: #f4f4f4;
-}
-
-.plan-box {
-    background-color:  #fff;
-    border-radius: 5px;
-    width: 90%;
-    margin-left: 5%;
-    -webkit-box-shadow: 0 2px 2px rgb(184, 183, 183);
-            box-shadow: 0 2px 2px rgb(184, 183, 183);
-}
-
-.plan-box div {
-    padding: 15px;
-    border-bottom: 1px solid #e8e8e8;
-}
-
-.plan-box div:first-child{
-    background-color: #fcfcfc;
-    border-top-left-radius:  5px;
-    border-top-right-radius: 5px;
-}
-
-.plan-box div:last-child{
-    text-align: center;
-    border: 0;
-}
-
-.plan-price{ 
-    font-size: 300%;
-    margin-bottom: 10px;
-    font-weight: 100;
-    color: #eb8220;
-}
-
-.plan-price span {
-    font-size: 30%;
-    font-weight: 300;
-
-}
-
-.plan-price-meal {
-    font-size: 80%;
-}
-
-.plan-box ul {
-    list-style: none;
-
-}
-
-.plan-box ul li {
-    padding: 5px 0;
-}
-
-/* ------------ */
-/* --------FORM--------- */
-/* ------------ */
+/* -------------FORM---------------- */
 
 .section-form {
     background-color: #f4f4f4;
@@ -511,7 +450,6 @@ img {
     width: 60%;
     margin: 0 auto;
 }
-
 
 input[type=text],
 input[type=email],
@@ -534,9 +472,14 @@ input[type=checbox] {
 
 *:focus {outline: none;}
 
-/* ------------ */
-/* --------FOOTER--------- */
-/* ------------ */
+/* -------------button------------- */
+
+.button{
+    padding: 16px;
+    box-shadow: blue;
+}
+
+/* -------------FOOTER------------- */
 
 footer{
     background-color: #333;
