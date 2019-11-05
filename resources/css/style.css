@@ -229,7 +229,7 @@ background-color: #9b50df;
 
 .btn-ghost:hover,
 .btn-ghost:active{
-    border: 1px solid #e67e22;
+    border: 1px solid #efeeec;
     color: #fff;
 }
 
@@ -346,53 +346,6 @@ border-bottom: 2px solid #e67e22;
     margin-bottom: 30px;
 }
 
-
-
-
-
-/* -----------MEALS-----------------*/
-
-.section-meals {
-    padding: 0;
-}
-
-.meals-showcase { 
-    list-style: none;
-    width: 100%;
-}
-
-.meals-showcase li {
-    display: block; 
-    float: left;
-    width: 25%;
-}
-
-.meal-photo{
-    width: 100%;
-    margin: 0;
-    overflow: hidden;
-    background-color: #000;
-}
-
-.meal-photo img {
-    opacity: 0.7;
-    width: 100%;
-    height: auto;
-    padding: 1%;
-    -webkit-transform: scale(1.15);
-            transform: scale(1.15);
-    -webkit-transition: opacity 0.5s, -webkit-transform 0.5s;
-    transition: opacity 0.5s, -webkit-transform 0.5s;
-    transition: transform 0.5s, opacity 0.5s;
-    transition: transform 0.5s, opacity 0.5s, -webkit-transform 0.5s;
-}
-
-.meal-photo img:hover {
-    opacity: 1;
-    -webkit-transform: scale(1.05);
-            transform: scale(1.05);
-}
-
 /* -----------How it Works-----------------*/
 
 .section-aboutme {
@@ -471,49 +424,6 @@ border-bottom: 2px solid #e67e22;
     margin-bottom: 5px;
     color: #00a8ffad ;
 }
-
-
-/* -----------Testimonials-----------------*/
-.section-testimonials {
-    background-image:-webkit-gradient(linear ,left top, left bottom ,from(rgba(0, 0, 0, 0.8)) ,to(rgba(0, 0, 0, 0.8))), url(img/back-customers-min.jpg);
-    background-image:linear-gradient(rgba(0, 0, 0, 0.8) ,rgba(0, 0, 0, 0.8)), url(img/back-customers-min.jpg);
-    background-size: cover;
-    color: #fff;
-    background-attachment: fixed;
-}
-
-blockquote {
-    padding: 2%;
-    font-style: italic;
-    line-height: 145%;
-    position: relative;
-    margin: 40px;
-}
-
-blockquote:before {
-    content: "\201c";
-    font-size: 500%;
-    display: block;
-    position: absolute;
-    top: -5px;
-    left: -5px;
-}
-
-cite {
-    font-size: 90%;
-    margin-top: 25px; 
-    display: block;
-}
-
-
-
-cite img {
-    height: 45px;
-    border-radius: 50%;
-    margin-right: 10px;
-    vertical-align: middle;
-}
-
 
 
 /* --------Sign-up--------- */
