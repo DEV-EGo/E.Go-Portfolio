@@ -41,14 +41,14 @@ p{
 /* --------------------------*/
 
 .row{
-    max-width: 1140px;
+    max-width: 1183px;
     margin: 0 auto ;
     text-align: center;
     color: black;
 }
 
 section {
-    padding: 80px 0;
+    padding: 100px 0;
 }
 
 .box{
@@ -81,7 +81,7 @@ h2 {
     font-size: 180%;
     word-spacing: 2px;
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 0px;
     letter-spacing: 1px;
 
 }
@@ -96,8 +96,8 @@ h2:after {
     height: 2px;
     background-color: #00a8ff;
     content: " ";
-    width: 100px;
-    margin: 0 auto;
+    width: 277px;
+    margin: 40px auto;
     margin-top: 30px;
 }
 
@@ -223,7 +223,7 @@ background-color: #9b50df;
 }
 
 .btn-full:hover,
-.btn-full:active,{
+.btn-full:active{
     border: 1px solid #e67e22;
 }
 
@@ -359,7 +359,7 @@ border-bottom: 2px solid #e67e22;
     padding: 25px;
     border: 1px;
 
-    border-radius: 45px;
+    border-radius: 9px 8px 58px;
     box-shadow: 6px 7px 7px 0px #5cc2f8;
 }
 
@@ -376,6 +376,18 @@ border-bottom: 2px solid #e67e22;
     box-shadow:  6px 7px 7px 0px #02a9ff78;
 }
 
+
+
+
+
+.MERN-img{
+   float: right;
+    justify-content: center;
+    border-radius: 3px 4px 5px 0px;
+
+    
+ 
+}
 .section-aboutme {
     background-color: #f4f4f4;
 }
@@ -419,12 +431,13 @@ border-bottom: 2px solid #e67e22;
     display: inline-block;
     text-align: center;
     margin-right: 25px;
-    float: left;
+    /* float: left; */
     padding: 5px;
 }
 
 .list{
     display: inline-block;
+    margin: 12%;
 }
 
 .btn-app:link,
@@ -587,7 +600,7 @@ footer p {
 .js--wp-3 { 
     opacity: 0;
     -webkit-animation-duration: .2s;
-    animation-duration: 2.1s;
+    animation-duration: 6s;
 }
 
 .js--wp-4 {
