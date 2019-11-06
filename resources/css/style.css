@@ -347,12 +347,33 @@ border-bottom: 2px solid #e67e22;
 
 /* -----------about me-----------------*/
 
-.Nikola-Tesla {
-    float: right;
+/* resizing both images */
+.app-screen{
+    height: 330px;
+}
+
+.edwin-img{
+    float: left;
     margin: -3px;
     border: 3px solid;
-    padding: 6px;
-    box-shadow: 6px 7px 7px 0px #02a9ff78;
+    padding: 25px;
+    border: 1px;
+
+    border-radius: 45px;
+    box-shadow: 6px 7px 7px 0px #5cc2f8;
+}
+
+.Nikola-Tesla {
+
+    transform: translate(-2%, -6%);
+    mix-blend-mode: screen;
+
+    float: right;
+    margin: -3px;
+    padding: 20px;
+    border-radius: 41px;
+
+    box-shadow:  6px 7px 7px 0px #02a9ff78;
 }
 
 .section-aboutme {
