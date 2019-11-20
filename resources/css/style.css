@@ -236,7 +236,7 @@ background-color: #9b50df;
 /* -----------HEADER-----------------*/
 
 header{
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))), url(img/loading.gif);
+    /* background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))), url(img/loading.gif); */
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/loading.gif);
     height: 100vh;
     background-size: cover;
@@ -357,9 +357,8 @@ border-bottom: 2px solid #e67e22;
     margin: -3px;
     border: 3px solid;
     padding: 25px;
-    border: 1px;
-
-    border-radius: 9px 8px 58px;
+    /* border: 1px; */
+    border-radius: 9px 18px 58px;
     box-shadow: 6px 7px 7px 0px #5cc2f8;
 }
 
@@ -600,7 +599,7 @@ footer p {
 .js--wp-3 { 
     opacity: 0;
     -webkit-animation-duration: .2s;
-    animation-duration: 4s;
+    animation-duration: 3.5s;
 }
 
 .js--wp-4 {
